@@ -1,0 +1,127 @@
+.card{
+  background-image: url(card4.jpg);
+  z-index: 5px;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}   
+
+.card img{
+  height: 50%;
+  width: 40%;
+}
+.card-title{
+  font-weight: bolder;
+}
+.card p{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+  .card img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40%;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+
+}
+
+.sm-icons{
+  float: right;
+}
+
+.sm-icons li{
+  list-style-type: none;
+}
+
+hr{
+  border: solid #000 0.5px;
+}
+
+.follow img {
+  height: 100px;
+  width: 100px;
+
+  border: #000 solid 1px;
+  margin: 2px 2px 2px 2px;
+}
+.follow img:hover{
+  color: aqua;
+  opacity: 70%;
+}
+
+
+.logos svg{
+  padding: 0px 5px 0px 5px;
+}
+
+
+
+
+footer{
+  margin-top: 50px;
+
+  align-items: center;
+}
+footer a{
+  margin: 20px 0 10px 50%;
+}
+footer a img{
+  height:30px;
+  width: 30px;
+}
+
+form {
+  margin:auto;
+  max-width: 600px;
+}
+input ,textarea{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #000;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #000;
+      font-size: 16px;
+}
+footer button{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #000;
+  color:#fff;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 40%;
+}
+footer button:hover{
+  cursor: pointer;
+  background: gray;
+  color:#000;
+}
